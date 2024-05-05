@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+@media  (max-width: 3000px)  and (min-width: 2000px){
+  .nav {
+    background-size: 5% !important;
+  }
+}
+@media (max-width: 1999px) and (min-width: 1601px) {
+
+}
+@media (max-width: 1600px) and (min-width: 1280px) {
+.arttext {
+    font-size: .9em;
+}
+.zoom img, .zoom {
+    max-height: 300px;
+    max-width: 300px;
+}
+.main {
+    padding-bottom: 900px !important;
+}
+.arttitle {
+    margin-right: 10%;
+    font-size: 1.7em !important;
+}
+}
+@media (max-width: 1279px) and (min-width: 1000px) {
+    
+    .zoom img, .zoom {
+        max-height: 300px;
+        max-width: 300px;
+    }
+    .main {
+        padding-bottom: 700px !important;
+    }
+    .arttitle {
+        margin-right: 10%;
+        font-size: 1.4em !important;
+        margin-left: 58% !important;
+    }
+    .arttext {
+        font-size: .7em;
+        padding-bottom: 40px !important;
+        margin-left: 58% !important;
+    }
+    .footertitle {
+        font-size: .7em !important;
+    }
+    .footerinfo {
+        font-size: .5em !important;
+    }
+    .copyright {
+        font-size: .4em !important;
+    }
+    .nav {
+        font-size: .8em !important;
+    }
+  }
+
+  @media (max-width: 1000px) and (min-width: 769px) {
+  
+    .zoom img, .zoom {
+        max-height: 270px;
+        max-width: 270px;
+    }
+    .main {
+        padding-bottom: 550px !important;
+    }
+    .arttitle {
+        margin-right: 10%;
+        font-size: 1.2em !important;
+        margin-left: 65% !important;
+    }
+    .arttext {
+        font-size: .55em;
+        padding-bottom: 40px !important;
+        margin-left: 65% !important;
+    }
+    .footertitle {
+        font-size: .7em !important;
+    }
+    .article a {
+        max-height: 315px !important;
+    }
+    .footerinfo {
+        font-size: .5em !important;
+    }
+    .copyright {
+        font-size: .4em !important;
+    }
+    .nav {
+        font-size: .8em !important;
+    }
+  }
+  
+@media (max-width: 768px) and (min-width: 481px) {
+    .bg {
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        background-position-y: -10px !important;
+    }
+    .zoom img, .zoom {
+        max-height: 230px;
+        max-width: 230px;
+    }
+    .about img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+    .main {
+        padding-bottom: 300px !important;
+    }
+    .bgchangee {
+        margin-right: 20% !important;
+     
+    }
+    .arttitle {
+        margin-right: 10%;
+        font-size: 1em !important;
+       
+    }
+    .arttext {
+        font-size: .3em;
+        padding-bottom: 40px !important;
+      
+        border-bottom: 3px solid greenyellow !important;
+    }
+    .footertitle {
+        font-size: .7em !important;
+    }
+    .article a {
+        max-height: 315px !important;
+    }
+    .footerinfo {
+        font-size: .5em !important;
+    }
+    .copyright {
+        font-size: .4em !important;
+    }
+    .nav {
+        font-size: .8em !important;
+        max-height: 70px;
+        background-size: 12% !important;
+    }
+  
+.save {
+    right: -13px !important;
+    max-height: 30px;
+    max-height: 30px;
+    background-size: 60% !important;
+}
+
+
+.main {
+    width: 100% !important;
+}
+
+
+    
+    .menu_mobile{
+        display: inline-block !important;
+        
+
+      }
+ 
+      
+      .mobilemenu {
+        min-width: 300px;
+        min-height: 300px;
+      }   
+        .x3  {
+            z-index: 9999999;
+            right: 20px;
+            top:  35px;
+          height: 3px;
+          width: 40px;
+          background: rgb(89, 255, 67);
+          display: block;
+          margin-top: 1em;
+          position: fixed;
+          transition: tranform 0.3s ease-in-out, top 0.3s ease-in-out,
+            opacity 0.3s ease-in-out;
+    }
+    .x3::before {
+        content: "";
+        position: absolute;
+        height: 3px;
+          width: 40px;
+        top: -26px;
+        background: rgb(89, 255, 67);
+    }
+    .x3::after {
+        content: "";
+        position: absolute;
+        height: 3px;
+          width: 40px;
+        top: -13px;
+        background: rgb(89, 255, 67);
+        
+    }
+    .menum:checked:first-child {
+            transform: rotate(45deg);
+            top: 8px;
+          }
+      
+          .menum:checked:last-child {
+            transform: rotate(-45deg);
+            top: -8px;
+          }
+      
+      
+     nav:first-of-type  {
+        
+        width: 100%;
+        
+        padding:2em 7em;
+        position: fixed;
+        left: -300%;
+        box-sizing: border-box;
+        transition: left 0.2s ease-in;
+      
+    .menum:checked ~ & {
+          left: 0;
+        }
+      
+    ul {
+        position: absolute;
+        left: 0;
+        top: -50px !important;
+          list-style-type: none;
+          margin: 0;
+          z-index: 999999999;
+          padding: 8em 45vw 100em 0em;
+          background-color: rgb(0, 0, 0);
+
+    }
+    ul li {
+       
+    margin-bottom: 10px;
+    border-bottom: #535353 solid 3px;
+    }
+    ul li a {
+      text-decoration: none;
+        color: green;
+        font-size: 4em;
+        font-family: cursive;
+        padding: .4em 5em  0 0em ;
+            }
+          }
+          ul li a:hover {
+          background-color: azure;
+          border-radius: 0% 2em 2em 0%;
+          }
+          * {
+            font-family: "Sedan SC", serif !important;
+            font-weight: 400 !important;
+            font-style: normal !important;
+}
+}
+@media (max-width: 480px) and (min-width: 300px) {
+    .bg {
+        background-size: 200% !important;
+        background-repeat: no-repeat;
+        background-position-y: -10px !important;
+    }
+    .zoom img, .zoom {
+        max-height: 150px;
+        max-width: 150px;
+    }
+    .title {
+        font-size: 1.5em !important;
+    }
+    .about img {
+        max-width: 20px;
+        max-height: 20px;
+    }
+    .bgchangee {
+        margin-right: 20% !important;
+     
+    }
+    .main {
+        padding-bottom: 00px !important;
+    }
+    .arttitle {
+        margin-right: 10%;
+        font-size: .7em !important;
+       
+    }
+    .arttext {
+        font-size: .2em;
+        padding-bottom: 40px !important;
+      
+        border-bottom: 3px solid greenyellow !important;
+    }
+    .footertitle {
+        font-size: .55em !important;
+    }
+    .article a {
+        max-height: 315px !important;
+    }
+    .footerinfo {
+        font-size: .4em !important;
+    }
+    .copyright {
+        font-size: .3em !important;
+    }
+    .nav {
+        font-size: .8em !important;
+        max-height: 70px;
+        background-size: 12% !important;
+    }
+  
+.save {
+    right: -13px !important;
+    max-height: 30px;
+    max-height: 30px;
+    background-size: 60% !important;
+}
+
+
+.main {
+    width: 100% !important;
+}
+
+
+    
+    .menu_mobile{
+        display: inline-block !important;
+        
+
+      }
+ 
+      
+      .mobilemenu {
+        min-width: 300px;
+        min-height: 300px;
+      }   
+        .x3  {
+            z-index: 9999999;
+            right: 20px;
+            top:  35px;
+          height: 3px;
+          width: 40px;
+          background: rgb(89, 255, 67);
+          display: block;
+          margin-top: 1em;
+          position: fixed;
+          transition: tranform 0.3s ease-in-out, top 0.3s ease-in-out,
+            opacity 0.3s ease-in-out;
+    }
+    .x3::before {
+        content: "";
+        position: absolute;
+        height: 3px;
+          width: 40px;
+        top: -26px;
+        background: rgb(89, 255, 67);
+    }
+    .x3::after {
+        content: "";
+        position: absolute;
+        height: 3px;
+          width: 40px;
+        top: -13px;
+        background: rgb(89, 255, 67);
+        
+    }
+    .menum:checked:first-child {
+            transform: rotate(45deg);
+            top: 8px;
+          }
+      
+          .menum:checked:last-child {
+            transform: rotate(-45deg);
+            top: -8px;
+          }
+      
+      
+     nav:first-of-type {
+        
+        width: 100%;
+        
+        padding:2em 7em;
+        position: fixed;
+        left: -300%;
+        box-sizing: border-box;
+        transition: left 0.2s ease-in;
+      
+    .menum:checked ~ & {
+          left: 0;
+        }
+      
+    ul {
+        position: absolute;
+        left: 0;
+        top: -50px !important;
+          list-style-type: none;
+          margin: 0;
+          z-index: 999999999;
+          padding: 8em 45vw 100em 0em;
+          background-color: rgb(0, 0, 0);
+
+    }
+    ul li {
+       
+    margin-bottom: 10px;
+    border-bottom: #535353 solid 3px;
+    }
+    ul li a {
+      text-decoration: none;
+        color: green;
+        font-size: 3em;
+        font-family: cursive;
+        padding: .4em 5em  0 0em ;
+            }
+          }
+          ul li a:hover {
+          background-color: azure;
+          border-radius: 0% 2em 2em 0%;
+          }
+          * {
+            font-family: "Sedan SC", serif !important;
+            font-weight: 400 !important;
+            font-style: normal !important;
+}
+}
+@media  (max-width: 300px) {
+    .bg {
+        background-size: 300% !important;
+        background-repeat: no-repeat;
+        background-position-y: 0px !important;
+    }
+    .zoom img, .zoom {
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .earth {
+        max-height: 150px;
+        max-width: 150px;
+    }
+    .title {
+        font-size: 1em !important;
+    }
+    .about img {
+        max-width: 20px;
+        max-height: 20px;
+    }
+    .main {
+        padding-bottom:  0px !important;
+    }
+    .arttitle {
+        margin-right: 10%;
+        font-size: .5em !important;
+       
+    }
+    .arttext {
+        font-size: 5px;
+        padding-bottom: 20px !important;
+      
+        border-bottom: 1px solid greenyellow !important;
+    }
+    .footertitle {
+        font-size: .55em !important;
+    }
+    .article a {
+        max-height: 315px !important;
+    }
+    .footerinfo {
+        font-size: .4em !important;
+    }
+    .copyright {
+        font-size: .3em !important;
+    }
+    .nav {
+        font-size: .8em !important;
+        max-height: 70px;
+        background-size: 12% !important;
+    }
+  
+.save {
+    right: -30px !important;
+    top: 2px !important;
+    max-height: 10px;
+    max-height: 10px;
+    background-size: 20% !important;
+}
+
+
+.main {
+    width: 100% !important;
+}
+
+
+    
+    .menu_mobile{
+        display: inline-block !important;
+        
+
+      }
+ 
+      
+      .mobilemenu {
+        min-width: 300px;
+        min-height: 300px;
+      }   
+        .x3  {
+            z-index: 9999999;
+            right: 20px;
+            top:  35px;
+          height: 1px;
+          width: 30px;
+          background: rgb(89, 255, 67);
+          display: block;
+          margin-top: 1em;
+          position: fixed;
+          transition: tranform 0.3s ease-in-out, top 0.3s ease-in-out,
+            opacity 0.3s ease-in-out;
+    }
+    .x3::before {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 30px;
+        top: -26px;
+        background: rgb(89, 255, 67);
+    }
+    .x3::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+          width: 30px;
+        top: -13px;
+        background: rgb(89, 255, 67);
+        
+    }
+    .menum:checked:first-child {
+            transform: rotate(45deg);
+            top: 8px;
+          }
+      
+          .menum:checked:last-child {
+            transform: rotate(-45deg);
+            top: -8px;
+          }
+      
+      
+     nav:first-of-type  {
+        
+        width: 100%;
+        
+        padding:2em 7em;
+        position: fixed;
+        left: -300%;
+        box-sizing: border-box;
+        transition: left 0.2s ease-in;
+      
+    .menum:checked ~ & {
+          left: 0;
+        }
+      
+    ul {
+        position: absolute;
+        left: 0;
+        top: -50px !important;
+          list-style-type: none;
+          margin: 0;
+          z-index: 999999999;
+          padding: 8em 45vw 100em 0em;
+          background-color: rgb(0, 0, 0);
+
+    }
+    ul li {
+       
+    margin-bottom: 10px;
+    border-bottom: #535353 solid 3px;
+    }
+    ul li a {
+      text-decoration: none;
+        color: green;
+        font-size: 3em;
+        font-family: cursive;
+        padding: .4em 5em  0 0em ;
+            }
+          }
+          ul li a:hover {
+          background-color: azure;
+          border-radius: 0% 2em 2em 0%;
+          }
+          .bgchangee {
+            margin-right: 20% !important;
+         
+        }
+        * {
+            font-family: "Sedan SC", serif !important;
+            font-weight: 400 !important;
+            font-style: normal !important;
+}
+
+}

@@ -1,0 +1,1540 @@
+@media  (max-width: 3000px)  and (min-width: 500px){
+    .container {
+        max-width: 1280px;
+        }
+   .nav {
+      max-height: 2em !important;
+       font-size: 4em !important;
+       max-height: 1em !important;
+  }
+  header {
+   margin-top: 0 !important;
+   position: relative !important;
+  
+   
+   
+  }
+  .header {
+    height: 100% ;
+background-position: 0em 10em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+    
+  }
+  .img1 {
+    margin-top: 14em !important;
+    z-index: 99999;
+  }
+
+
+
+  .img1 img , .img2 img {
+    visibility: visible !important;
+    min-width: 100%;
+
+  }
+  .content {
+    padding-top: 4em !important;
+  }
+ 
+}
+@media (min-width: 1536px) {
+     .container {
+         max-width: 1280px;
+         }
+    .nav {
+        min-height:4em;
+        font-size: 6em;
+        padding-bottom: .3em ;
+        
+    }
+
+    .menu ul {
+        padding-top: 0px;
+        margin-top: 0px;
+        
+    }
+    .menu ul li a {
+        font-size: 4em;
+    }
+    
+    
+    header {
+        margin-top: 25em;
+        min-height: 70em ;
+       background-color: #050505 ;
+       padding-bottom: 2em;
+
+        
+    }
+    
+    .gonatural  {
+        font-size: 17em !important;
+        
+    }
+    .undergonatural {
+        font-size:  6em;
+    }
+    .imginfo {
+        min-width: 10em;
+        min-height: 16em;
+        max-height: 20em;
+        
+    }
+    .imginfo p {
+        font-size: 3.5em;
+    }
+    .abtcountry1 {
+        font-size: 10em !important;
+    }
+    .gallerytitle {
+        font-size: 10em !important;
+        margin-bottom: 0em !important;
+    }
+    .gallerytext {
+        border-bottom: green .2em solid !important;
+        font-size: 3.5em !important;
+        font-family: cursive;
+    }
+    
+    .footerinfo {
+        font-size: 5em !important;
+    }
+    .footertitle {
+        font-size: 6em !important;
+    }
+    .menu2 {
+        font-size: 5em;
+        
+    }
+    .menu2   a{
+       line-height: 1.3em !important;
+    }
+    .about a img {
+        min-height: 10em ;
+        min-width: 10em;
+    }
+    .copyright {
+        font-size: 5em;
+        
+    }
+    .img2  img {
+        width: 90% !important;
+       
+    }
+    
+    
+    .ecologo {
+        width: 1em !important;
+      }
+      .imginfo {
+        max-height: 10%;
+      }
+      .imginfo p {
+        font-size: 2.5em !important;
+      }
+      .gonatural {
+        font-size: 10em !important;
+     }
+     .content {
+        padding-top: 7em !important;
+      }
+}
+@media (max-width: 2250px){ 
+    
+        .nav {
+            font-size: 3em !important;
+            padding-bottom: 25px !important;
+        }
+        
+        
+        
+}
+@media (max-width: 2900px) {
+    .mainimgdiv img {
+        max-height: 40em !important;
+    }
+    
+    header {
+        background-position-y: 6em !important; 
+    
+    } 
+    .content  {
+        padding-top: 20em !important;
+    }
+
+
+}
+@media (max-width: 2250px) {
+
+.container { 
+    max-width: 768px;
+ }
+ .nav {
+    font-size: 3em !important;
+    
+ }
+ .footertitle {
+font-size: 4em !important;
+ }
+ .footerinfo {
+font-size: 2.8em !important;
+ }
+ .copyright {
+    font-size: 2em !important;
+ }
+    
+ .img1 img {
+    top: -.3em !important;
+ }
+ .menu2 {
+    font-size: 3em !important;
+ }
+ header {
+    background-position-y: 10em !important; 
+
+} 
+
+ 
+}
+@media (max-width: 1900px) {
+     .container{
+     max-width: 640px;
+     }
+     .nav {
+        font-size: 2em !important;
+        
+     }
+     .imginfo {
+        max-height: 20% !important;
+        font-size: 2em !important;
+     }
+     .undergonatural {
+        font-size: 3em !important;
+     } 
+     
+
+    
+     
+}
+@media (max-width: 2300px) {
+
+.container {
+     max-width: 475px; 
+    }
+    .imginfo  p {
+    font-size: 1.6em !important;
+     }
+     .imginfo {
+        min-height: 9em !important;
+     }
+     .mainimgdiv img  {
+        max-height: 50em !important;
+        
+     }
+     .mainimgdiv img a {
+        max-height: 50em !important;
+        min-height: 39em !important;
+     }
+     header {
+        background-position-y: 8em !important; 
+    
+    } 
+}
+ @media (min-width: 2000px) {
+    .mainimgdiv img  {
+        max-height: 50em !important;
+        min-height: 38em !important;
+     }
+     .mainimgdiv img a {
+        max-height: 50em !important;
+        min-height: 39em !important;
+     }
+}
+@media (min-width: 2500px) {
+        .mainimgdiv img  {
+            max-height: 60em !important;
+            min-height: 50em !important;
+         }
+         .mainimgdiv img a {
+            max-height: 50em !important;
+            min-height: 39em !important;
+         }
+         @media   ( max-width: 1900px) {
+            .mainimgdiv img  {
+                max-height: 3em !important;
+                min-height: 2em !important;
+             }
+             .mainimgdiv img a {
+                max-height: 2em !important;
+                min-height: 2em !important;
+             }
+             .nav {
+                display: none !important;
+             }
+            }
+            
+                
+}
+@media (max-width: 1530px) { 
+    .container {
+     width: 100%; 
+     }
+     .menu2 {
+        font-size: 2em !important;
+     }
+    
+}
+@media (max-width: 1540px) { 
+        .container {
+         width: 100%; 
+         }
+         .nav {
+            font-size: 1.5em !important;
+            z-index: 99998;
+            position: fixed;
+            top: 0px;
+            background-color: rgb(0, 0, 0) !important;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: flex-end;
+           align-items: center;
+           left: 0;
+        .ecologo {
+            z-index: 99999;
+            position: fixed;
+            top: -10px;
+            left: -20px;
+            width: 10em;
+            
+         }
+        
+        .img1 img {
+           
+            top: -2em !important;
+           
+            
+        }
+        .img2 img {
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            bottom: -1px;
+            height: 200px;
+        }
+         .footerinfo {
+            font-size: 1em !important;
+         }
+    
+         }    
+
+}
+@media (max-width: 1900px) and (min-width: 1600px) {
+    .nav {
+    padding-bottom: 0em !important;
+    }
+.img1 img {
+    top: -1em !important;
+}
+}
+@media (max-width: 2250px) and (min-width: 1530px) {
+    header {
+        background-position-y: 18em !important;
+        max-height: 20em !important;
+
+}
+.gallerytitle {
+    font-size: 6em !important;
+}
+.gallerytext {
+    font-size: 2em !important;
+}
+.nav {
+    font-size: 3.2em !important;
+}
+}
+@media (max-width: 1800px) and (min-width: 1300px) {
+    .footertitle{
+        font-size: 2.8em !important;
+
+    }
+    .footerinfo , .menu2 {
+        font-size: 2em !important;
+    }
+    .about img{
+        min-height: 6em !important;
+        min-width: 6em !important;
+    }
+    
+    .content {
+        z-index: 2 !important;
+        padding-top: 0 !important;
+    }
+    header {
+        
+        background-position-y: 4em !important;
+        padding-top: 2em ;
+        height: 40em !important;
+    }
+    .img1 img {
+        top: 6em !important; 
+    }
+    .nav {
+max-height: 2em !important;
+font-size: 1em !important;
+margin-bottom: 0 !important;
+    }
+
+
+    .footertitle{
+        font-size: 1.9em !important;
+
+    }
+    .footerinfo , .menu2 {
+        font-size: 1.6em !important;
+    }
+    .about img{
+        min-height: 4em !important;
+        min-width: 4em !important;
+    }
+    .copyright {
+        font-size: 1.4em !important;
+    }
+    .nav {
+        min-height: 6em !important;
+    }
+    .img1 img {
+        background-color: transparent !important;
+    }
+    
+}
+@media (max-width: 1300px) and (min-width: 768px) {
+    .footertitle{
+        font-size: 1.7em !important;
+
+    }
+    .footerinfo , .menu2 {
+        font-size: 1.2em !important;
+    }
+    .about img{
+        min-height: 3.5em !important;
+        min-width: 3.5em !important;
+    }
+    .copyright {
+        font-size: 1em !important;
+    }
+    .nav {
+        font-size: .9em !important;
+        min-height: 7em !important;
+        padding-bottom: 0 !important;
+    }
+    
+    .imginfo p {
+        font-size: 1em !important;
+        max-height: 1em !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    header {
+        max-height: 30em !important;
+        top: -8em !important;
+    }
+    .content {
+        padding-top: 0em !important;
+    }
+    body {
+        background-color: black;
+    }
+}
+@media (max-width: 1050px) and (min-width: 768px) {
+    .nav {
+        font-size: .6em !important ;
+    }
+    .menu ul li a {
+        margin-right: 0px !important;
+    }
+    
+
+}
+@media (max-width: 1300px) and (min-width: 768px) {
+    .footertitle{
+        font-size: 1em !important;
+
+    }
+    .footerinfo , .menu2 {
+        font-size: .8em !important;
+    }
+    .about img{
+        min-height: 3em !important;
+        min-width: 3em !important;
+    }
+    .copyright {
+        font-size: .6em !important;
+    }
+
+    .undergonatural {
+    font-size: 2em !important;
+    }
+    .imginfo p {
+        font-size: .9em !important;
+        
+    }
+    .imginfo {
+        min-height: 5em !important;
+    }
+    .abtcountry1 {
+        font-size: 4em !important;
+    }
+
+
+}
+@media (max-width: 767px) and (min-width: 500px) {
+    
+    .aboutcountrygallery {
+        width: 95% !important;
+    }
+    .gallerytext {
+        font-size: .55em !important;
+    }
+    .mainimgdiv {
+        margin: 0 !important;
+    }
+    .mainimgdiv {
+        
+        grid-template-columns: 1fr 1fr !important;
+        grid-template-rows: repeat(4, 1fr) !important;
+        grid-gap: 0  !important;
+        border: 0 !important;
+       }
+       .mainimgdiv img , .mainimgdiv a{
+        max-height: 98% !important;
+        
+       }
+       
+    .footertitle{
+        font-size: .6em !important;
+
+    }
+    .footerinfo , .menu2 {
+        font-size: .5em !important;
+    }
+    .about img{
+        min-height: 1.5 !important;
+        min-width: 1.5em !important;
+    }
+    .copyright {
+        font-size: .4em !important;
+    }
+    .nav {
+        font-size: 0.6em !important;
+        padding-bottom: 5em;
+    }
+    .menu ul li a {
+        padding: 30px 30px !important;
+        margin-top: 5em !important;
+    }
+    .bgchangee {
+        position: fixed !important;
+    font-size: .2em !important;
+        left: 20em !important;
+    }
+    .img1 {
+        margin: 0 !important;
+    }
+    .content {
+        padding-top: 0 !important;
+    }
+    header {
+    background-position-y: 2em !important;
+   } 
+   .imginfo {
+    font-size: .8em !important ;
+   }
+   .ecologo1 {
+    min-width: 3em !important;
+   }
+   .abt2 {
+    font-size: .6em !important;
+   }
+    .img1 {
+        margin-top: 0 !important;
+    }
+    .abtcountry1 {
+        font-size: 3em !important;
+    }
+    .nav {
+        font-size: 1.5em !important;
+        padding-bottom: 0em !important;
+        min-height:2.5em;
+    }
+    .menu  {
+        display: none;
+    }
+    
+    header {
+        background-position-y: 1.4em !important;
+        max-height: 25em !important;
+    }
+  
+    .menu_mobile{
+        display: inline-block !important;
+        
+
+      }
+      .menum{
+        display: none;
+      }
+      .mobilemenu {
+        min-width: 300px;
+        min-height: 300px;
+      }
+      
+     
+      
+        .x3  div {
+            z-index: 9999999;
+            right: .5em;
+            top: .5em;
+          height: .1em;
+          width: 1em;
+          background: rgb(89, 255, 67);
+          display: block;
+          margin-top: 1em;
+          position: fixed;
+          transition: tranform 0.3s ease-in-out, top 0.3s ease-in-out,
+            opacity 0.3s ease-in-out;
+    }
+          .menum:checked:first-child {
+            transform: rotate(45deg);
+            top: 8px;
+          }
+      
+          .menum:checked:last-child {
+            transform: rotate(-45deg);
+            top: -8px;
+          }
+      
+      
+          .menu_mobile  {
+        
+        width: 100%;
+        
+        padding:2em 7em;
+        position: fixed;
+        left: -100%;
+        box-sizing: border-box;
+        transition: left 0.2s ease-in;
+      
+    .menum:checked ~ & {
+          left: 0;
+        }
+      
+    ul {
+        position: absolute;
+        left: 0;
+        top: -1em;
+          list-style-type: none;
+          margin: 0;
+          z-index: 999999999;
+          padding: 5em 0em 50em 0em;
+          background-color: rgb(0, 0, 0);
+
+    }
+    ul li {
+       
+    margin-bottom: 10px;
+    border-bottom: #535353 solid 3px;
+    }
+    ul li a {
+      text-decoration: none;
+        color: green;
+        font-family: cursive;
+        padding: .4em 5em  0 0em ;
+            }
+          }
+          ul li a:hover {
+          background-color: azure;
+          border-radius: 0% 2em 2em 0%;
+          }
+          .gonatural {
+            font-size: 3em !important;
+          }
+          .undergonatural {
+            font-size: 1em !important;
+          }
+          .aboutcountry{
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            grid-template-rows: 1fr 1fr !important;
+          }
+          .imginfo {
+            bottom: 0 !important;
+            left: 20%;
+          }
+          .abt1 {
+            display: flex;
+            max-width: 90vw;
+            align-items: center;
+          }
+   
+}
+@media (max-width: 499px) and (min-width: 200px) {
+    .aboutcountrygallery {
+        width: 95% !important;
+        padding-top: 3em !important;
+    }
+    .gallerytext {
+        font-size: .55em !important;
+    }
+    .mainimgdiv {
+        margin: 0 !important;
+        
+
+    }
+    .ecologo {
+        margin-top: 2em !important;
+        left: -1em !important;
+         min-height: 5.5em !important;
+         min-width: 8em !important;
+     }
+     .bgchangee {
+         position: fixed !important;
+     font-size: 3px !important;
+         left: 30em !important;
+     }
+    .mainimgdiv {
+        grid-template-columns: 1fr 1fr !important;
+        grid-template-rows: repeat(4, 1fr) !important;
+        grid-gap: 0  !important;
+        border: 0 !important;
+       }
+       .mainimgdiv img , .mainimgdiv a{
+        max-height: 98% !important;
+        
+       }
+       
+    .footertitle{
+        font-size: .6em !important;
+
+    }
+    .footerinfo , .menu2 {
+        font-size: .5em !important;
+    }
+    
+    .copyright {
+        font-size: .4em !important;
+    }
+    .nav {
+        padding-bottom: 5em;
+        padding-bottom: 0em !important;
+        max-height:2.5em;
+
+
+    }
+    .menu ul li a {
+        padding: 30px 30px !important;
+        margin-top: 5em !important;
+    }
+    .ecologo {
+        top: -1em !important;
+        max-height: 5.5em !important;
+        min-width: 8em !important;
+    }
+
+    .content {
+        padding-top: 0 !important;
+    }
+     
+   .imginfo {
+    font-size: .8em !important ;
+   }
+   .ecologo1 {
+    min-width: 3em !important;
+   }
+   .abt2 {
+    font-size: .6em !important;
+   }
+    .img1 {
+        margin-top: 0 !important;
+    }
+    .img2 img {
+        bottom: -.1em !important;
+    }
+
+    .menu  {
+        display: none;
+    }
+    
+    header {
+        background-position-y: 3.7em !important;
+        max-height: 23em !important;
+
+    }
+  
+    .menu_mobile{
+        display: inline-block !important;
+        
+
+      }
+      .menum{
+        display: none;
+      }
+      .mobilemenu {
+        min-width: 300px;
+        min-height: 300px;
+      }   
+        .x3  div {
+            z-index: 9999999;
+            right: .5em;
+            top: .5em;
+          height: .1em;
+          width: 1em;
+          background: rgb(89, 255, 67);
+          display: block;
+          margin-top: 1em;
+          position: fixed;
+          transition: tranform 0.3s ease-in-out, top 0.3s ease-in-out,
+            opacity 0.3s ease-in-out;
+    }
+    .menum:checked:first-child {
+            transform: rotate(45deg);
+            top: 8px;
+          }
+      
+          .menum:checked:last-child {
+            transform: rotate(-45deg);
+            top: -8px;
+          }
+      
+      
+      .menu_mobile  {
+        
+        width: 100%;
+        
+        padding:2em 7em;
+        position: fixed;
+        left: -100%;
+        box-sizing: border-box;
+        transition: left 0.2s ease-in;
+      
+    .menum:checked ~ & {
+          left: 0;
+        }
+      
+    ul {
+        position: absolute;
+        left: 0;
+        top: -1em;
+          list-style-type: none;
+          margin: 0;
+          z-index: 999999999;
+          padding: 5em 0em 50em 0em;
+          background-color: rgb(0, 0, 0);
+
+    }
+    ul li {
+       
+    margin-bottom: 10px;
+    border-bottom: #535353 solid 3px;
+    }
+    ul li a {
+      text-decoration: none;
+        color: green;
+        font-family: cursive;
+        padding: .4em 5em  0 0em ;
+            }
+          }
+          ul li a:hover {
+          background-color: azure;
+          border-radius: 0% 2em 2em 0%;
+          }
+          .gonatural {
+            font-size: 2.5em !important;
+          }
+          .undergonatural {
+            font-size: 1em !important;
+          }
+          .aboutcountry{
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            grid-template-rows: 1fr 1fr !important;
+            padding-top: 0 !important;
+          }
+          .imginfo {
+            bottom: 0 !important;
+            left: 20%;
+          }
+          .abt1 {
+            display: flex;
+            max-width: 90vw;
+            align-items: center;
+          }  
+
+}
+@media (max-width: 440px) and (min-width: 200px) {
+    
+    header {
+background-size: 120% !important;
+    }
+    .about img {
+        max-height: 1.5em !important;
+        max-width: 1.5em !important;
+    }
+    .footertitle {
+        font-size: .5em !important;
+    }
+    .gonatural {
+        font-size: 1.4em !important;
+    }
+    .abtcountry1 {
+        font-size: 1.4em !important;
+    }
+    .undergonatural {
+        font-size: .7em !important;
+    }
+    .imginfo {
+        font-size: .6em !important;
+        padding-top: .7em !important;
+    }
+    .ecologo1 {
+        height: 15em !important;
+        width: 18em !important;
+    }
+    .gallerytitle {
+        font-size: 2.2em !important;
+    }
+    .gallerytext {
+        font-size: .5em !important;
+        padding-bottom: 1em !important;
+    }
+    
+} 
+@media (max-width: 360px) and (min-width: 100px) {
+    
+    header {
+background-size: 150% !important;
+    }
+    
+
+    
+} 
+@media (max-width: 280px) and (min-width: 0px) {
+    
+   header {
+    max-height: 20em !important;
+   }
+   .gonatural {
+    font-size: 1.4em !important;
+   }
+   .undergonatural {
+    font-size: .45em !important;
+   }
+   
+   .aboutcountry {
+    max-height: 40em !important;
+  }
+  
+ .bgchangee {
+     position: fixed !important;
+ font-size: 3px !important;
+     left: 30em !important;
+ }
+.imginfo {
+    font-size: .5em !important;
+}
+.ecologo1 {
+    max-width: 12em !important;
+    max-height: 12em !important;
+}
+.footertitle {
+    font-size: .2em !important;
+}
+.footerinfo {
+    font-size: .4em !important;
+}
+.gallerygrid {
+grid-gap: .5em !important;
+}
+    
+}
+@media (max-width: 220px) and (min-width: 0px) {
+    .aboutcountrygallery {
+        width: 99% !important;
+    }
+.bgchangee {
+    max-width: 1em !important;
+}
+.gallerytitle {
+    font-size: 1.2em !important;
+}
+.gallerytext {
+    font-size: .3em !important;
+}
+.footertitle {
+    font-size: 3px !important;
+}
+.about img{
+    max-width: .6em !important;
+    max-height: .6em !important;
+}
+.footerinfo {
+    font-size: 3px !important;
+}
+.copyright {
+font-size: 3px !important;
+}
+.img1 img, .img2 img {
+    max-height: 10em !important;
+}
+.img1 img {
+    top: 1em !important;
+}
+header {
+    max-height: 17em !important;
+    background-position-y: 3em !important;
+
+}
+.nav {
+    max-height: 2em !important;
+}
+.ecologo {
+    max-width: 5em !important;
+    max-height: 5em !important;
+}
+.mainimgdiv {
+    margin: 0 !important;
+}
+.abt1 {
+    max-width: 100% !important;
+}
+.aboutcountry{
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr !important;
+    padding-top: 0 !important;
+  }
+.mainimgdiv {
+    
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: repeat(4, 1fr) !important;
+    grid-gap: 0  !important;
+    border: 0 !important;
+   }
+   .mainimgdiv img , .mainimgdiv a{
+    max-height: 98% !important;
+    
+   }
+   .ecologo1 {
+    max-width: 15em !important;
+    max-height: 15em !important;
+   }
+   .menu  {
+display: none !important;
+}
+.menu_mobile{
+    display: inline-block !important;
+    
+
+  }
+  .menum{
+    display: none !important;
+  }
+  .mobilemenu {
+    min-width: 300px;
+    min-height: 300px;
+  }
+  
+ 
+  
+    .x3  div {
+        z-index: 9999999;
+        right: .5em;
+        top: .5em;
+      height: .1em;
+      width: 1em;
+      background: rgb(89, 255, 67);
+      display: block;
+      margin-top: 1em;
+      position: fixed;
+      transition: tranform 0.3s ease-in-out, top 0.3s ease-in-out,
+        opacity 0.3s ease-in-out;
+}
+      .menum:checked:first-child {
+        transform: rotate(45deg);
+        top: 8px;
+      }
+  
+      .menum:checked:last-child {
+        transform: rotate(-45deg);
+        top: -8px;
+      }
+  
+  
+  .menu_mobile {
+    
+    width: 100%;
+    
+    padding:2em 7em;
+    position: fixed;
+    left: -500%;
+    box-sizing: border-box;
+    transition: left 0.2s ease-in;
+  
+.menum:checked ~ & {
+      left: 0;
+    }
+  
+ul {
+    position: absolute;
+    left: 0;
+    top: -1em;
+      list-style-type: none;
+      margin: 0;
+      z-index: 999999999;
+      padding: 5em 0em 50em 0em;
+      background-color: rgb(0, 0, 0);
+
+}
+ul li {
+   
+margin-bottom: 10px;
+border-bottom: #535353 solid 3px;
+}
+ul li a {
+  text-decoration: none;
+    color: green;
+    font-family: cursive;
+    padding: .4em 5em  0 0em ;
+        }
+      }
+      ul li a:hover {
+      background-color: azure;
+      border-radius: 0% 2em 2em 0%;
+      }
+      .gonatural {
+        font-size: .5em !important;
+      }
+      .undergonatural {
+        font-size: .3em !important;
+      }
+      .abt2 , .abt1{ 
+        font-size: .4em !important;
+        overflow: hidden;
+      }
+      .imginfo {
+        font-size: .1em !important;
+        padding: 10px !important;
+      }
+      .abtcountry1 {
+        font-size: .6em !important;
+      }
+      .about a img {
+        display: none !important;
+      }
+.abt1 {
+    display: none !important;
+}
+.content {
+padding-top: 0 !important;
+}
+} 
+@media only screen and (max-width: 1900px) {
+  
+    .aboutcountry {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+
+  }
+
+ }
+
+body {
+  margin: 0;
+    color: white;
+    
+}
+
+    
+
+header  {
+        width: 100%;
+        position: relative;
+        height: 30em;
+        background-image: url(1024px-Flag_of_the_United_States.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    
+
+}
+
+
+
+
+
+.nav {
+    z-index: 99998;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+   align-items: center;
+   left: 0;
+   background-image: url(ecologo.png);
+   background-repeat: no-repeat;
+   background-size: 10%;
+ }
+ .menu ul .menu li {
+    margin: 0%;
+    padding: 0%;
+ }
+ .menu ul {
+    list-style: none;
+    
+    
+ }
+ .menu ul li {
+    display: inline-block;
+    position: relative;
+
+ }
+ .menu ul li a {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 1em;
+    padding: 20px 52px;
+    text-decoration: none;
+    text-align: center;
+    color: green;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+ }
+  
+ .menu ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+     height: 3px;
+     width: 100%;
+    background-color: #15fc00;
+    transform: scaleX(0);
+    transition:  0.3s ease;
+  }
+  
+
+  .menu ul li a:hover::before {
+    transform: scaleX(1);
+  }
+.menu_mobile {
+    display: none;
+}
+ .content {
+    background-color: #050505;
+ }
+ .ecologo {
+    z-index: 99999;
+    position: fixed;
+    top: -70px !important;
+    left: -70px;
+    scale: .6;
+    
+    
+ }
+
+.img1 , .img2 {
+    height: fit-content;
+    width: 100%;
+}
+    
+
+.img1 img {
+    z-index: 1;
+    position: absolute;
+    width: 100% !important;
+    top: -5px;
+    height: 250px;
+    left: 0;
+    right: 0;
+}
+
+.img2 img {
+    z-index: 1;
+    position: absolute;
+    width: 100% !important;
+    bottom: -10px;
+    height: 200px;
+    left: 0;
+    right: 0;
+}
+
+
+.flag img {
+    width: 100%;
+    background-attachment: fixed;
+
+}
+
+
+
+
+.mainimgdiv {
+    display: grid;
+    border-bottom: 10em black solid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+        width:  100%;
+    margin: auto;
+    background-color: black;
+    
+}
+.maincontent{
+    width: 99% !important;
+}
+.mainimgdiv img {
+ width: 24%;
+
+ margin: auto;
+}
+
+.center {
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+    
+}
+.gonatural {
+    display: block;
+    background-color: green;
+    width: fit-content;
+    margin: auto;
+    font-size: 4em;
+    border-radius: 12px;
+    padding: 0.1em;
+    font-family: cursive;
+}
+.undergonatural {
+    margin-top: 5px;
+    display: block;
+    margin: auto;
+    color: green;
+    width: fit-content;
+}
+.aboutcountry {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ecologo1 {
+    width: 500px;
+}
+.abt1 {
+    position: relative;
+    width: 200px;
+    width: 200%;
+}
+.abt1 img {
+    width: 400px;
+    width: 50%;
+    margin: auto;
+}
+.abt2 {
+    font-size: 1.4vw;
+    color: white;
+    
+}
+.imginfo {
+    background-color: green;
+    width: 25%;
+   
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    bottom: 100px;
+    color: #050505;
+
+    
+
+}
+.imginfo1 {
+    display: inline;
+    background-color: white;
+    
+}
+.imginfo2 {
+    font-size: 20px;
+    text-decoration: underline solid 1px;
+}
+.aboutcountrygallery {
+    padding-top: 200px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.abtcountry1 {
+    display: block;
+    background-color: green;
+    width: fit-content;
+    margin: auto;
+    font-size: 5em;
+    padding: 3px;
+    border-radius: 3px;
+    font-family: cursive;
+}
+.galleryimgg {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+.gallerytitle {
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 3px;
+    border-radius: 3px;
+    word-break: break-all;
+    background-image: linear-gradient(45deg, rgb(8, 65, 8), rgb(0, 90, 0),  rgb(0, 189, 0) ,rgb(62, 255, 62), rgb(11, 172, 11), rgb(3, 99, 3) , rgb(8, 73, 8));
+    background-position: 0 0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200%;
+    animation: gradient 10s infinite linear ;
+
+}
+  @keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 500% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+.gallerytext {
+    display: block;
+    font-size: 1.3vw;
+    padding: 3px;
+    border-radius: 3px;
+    word-break: break-all;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    border-bottom: #15fc00 solid 2px;
+}
+.gallerygrid {
+    column-gap: 25px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col2 {
+    margin-top: -20px;
+}
+footer {
+    background-color: #2b2b2b;
+    color: rgb(182, 182, 182);
+    padding-bottom: 20px;
+
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    background-color: #2b2b2b;
+    padding: 1px;
+    color: rgb(182, 182, 182);
+    margin: auto;
+    height: max-content;
+    width: 80%;
+    border-bottom: 1px gray solid;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.footertitle {
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.footerinfo {
+    font-size: 15px;
+   
+    white-space: pre-wrap;
+}
+
+.about img {
+    width: 40px;
+
+ }
+ .menu2 a {
+    color: rgb(182, 182, 182);
+    line-height: 40px;
+    margin: auto;
+    display: block;
+ }
+ .footerinfo a {  
+    color: rgb(182, 182, 182);
+    line-height: 20px;
+    margin: auto;
+    display: block;
+ }
+ .copyright {
+    
+    width: fit-content;
+    margin: auto;
+ }
+.changer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+.bgchangee {
+    width: 5vw;
+    height: 5vw;
+    background-image: url(dm\ \(2\).png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+    padding: 0;
+    background-color: #15fc00;
+    border: 0;
+    background-color: transparent;
+}
+ 
+
+
+
+
+
+
+.lightmode {
+    background-color: white !important;
+    color: #050505 ;
+    border-bottom: #050505 1px solid;
+}
+.lightimg1 img, .lightimg2 img {
+    filter: invert(100%);
+    background-color: azure;
+}
+.lightbtn {
+    filter: invert(0%);
+}
+

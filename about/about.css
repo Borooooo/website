@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@media print {
+    .nav , nav, footer, .footer {
+        display: none;
+    }
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    
+ }
+
+
+.nav {
+    z-index: 99998;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+   align-items: center;
+   left: 0;
+   background-image: url(/website/under/ecologo.png);
+   background-repeat: no-repeat;
+   background-size: 6.6%;
+ }
+ .menu ul .menu li {
+    margin: 0%;
+    padding: 0%;
+ }
+ .menu ul {
+    list-style: none;
+    
+    
+ }
+ .menu ul li {
+    display: inline-block;
+    position: relative;
+
+ }
+ .menu ul li a {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 1em;
+    padding: 20px 52px;
+    text-decoration: none;
+    text-align: center;
+    color: green;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+ }
+  
+ .menu ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+     height: 3px;
+     width: 100%;
+    background-color: #15fc00;
+    transform: scaleX(0);
+    transition:  0.3s ease;
+  }
+  
+
+  .menu ul li a:hover::before {
+    transform: scaleX(1);
+  }
+
+    .menumobile , .menum , .menu_mobile, .menuu {
+      display: none;
+  }
+.headermain {
+    width: 100%;
+    max-height: 1100px;
+    min-height: 800px;
+    background-image: url(bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.title {
+    position: absolute;
+    font-size: 6em;
+    z-index: 2;
+    top: 30%;
+    left: 15%;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+.blur {
+    top: 25%;
+    left: 0%;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    background-color: #2b2b2b;
+    opacity: .8;
+}
+.subtitle {
+    
+    display: block;
+    margin: auto;
+    width: 70%;
+    font-size: 5em;
+    color: black;
+    font-family: "Sedan SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top:100px;
+}
+.imgbg {
+    margin-top: 100px;
+    width: 100%;
+    max-height: 700px;
+    min-height: 600px;
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: sepia(20%);
+}
+.whitebg {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    z-index: 4;
+    left: 25%;
+    top: 35%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+     border: #2b2b2b solid 2px;
+    
+}
+.imgbg1 {
+    margin-top: 100px;
+    width: 100%;
+    max-height: 700px;
+    min-height: 600px;
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+    filter: sepia(20%);
+   
+}
+
+
+.titlewh {
+display: block;
+width: fit-content;
+
+    font-size: 6em;
+    z-index: 2;
+    margin: auto;
+    margin-top: 4%;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+
+.lightmode {
+     
+    color: #050505 ;
+    border-bottom: #050505 1px solid;
+     background-color: white !important;
+ }
+  .bgchangee {
+ 
+    width: 5vw;
+    height: 5vw;
+    background-image: url(/website/under/dm\ \(2\).png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+ }
+ 
+ .bgchangee:checked{
+    display: none;
+    filter: invert(-100%);
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #2b2b2b;
+    color: rgb(182, 182, 182);
+    padding-bottom: 20px;
+    margin-top: 4%;
+
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    background-color: #2b2b2b;
+    padding: 1px;
+    color: rgb(182, 182, 182);
+    margin: auto;
+    height: max-content;
+    width: 80%;
+    border-bottom: 1px gray solid;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.footertitle {
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.footerinfo {
+    font-size: 15px;
+   
+    white-space: pre-wrap;
+}
+
+.about img {
+    width: 40px;
+
+ }
+ .menu2 a {
+    color: rgb(182, 182, 182);
+    line-height: 40px;
+    margin: auto;
+    display: block;
+ }
+ .footerinfo a {  
+    color: rgb(182, 182, 182);
+    line-height: 20px;
+    margin: auto;
+    display: block;
+ }
+ .copyright {
+    
+    width: fit-content;
+    margin: auto;
+ }

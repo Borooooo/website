@@ -1,0 +1,281 @@
+@media print {
+   .nav , nav, footer, .footer {
+       display: none;
+   }
+}
+
+* {
+   margin: 0%;
+   padding: 0%;
+   
+}
+
+body  {
+    margin: 0;
+    background-color: #0f0f0f;
+    color: white;
+  
+
+}
+header  {
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+
+}
+
+#chartdiv div {
+    margin: auto;
+    width: 70%;
+    min-height: 1000px;
+    max-height: 1000px;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible !important;
+}
+#chartdiv {
+    max-width: 60%;
+    margin: auto;
+}
+.map {
+    width: 100%;
+    
+}
+svg {
+    width: 0;
+    height: 0;
+  }
+    
+  .nav {
+    z-index: 99998;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+   align-items: center;
+   left: 0;
+   background-image: url(/website/under/ecologo.png);
+   background-repeat: no-repeat;
+   background-size: 7%;
+ }
+ .menu ul .menu li {
+    margin: 0%;
+    padding: 0%;
+ }
+ .menu ul {
+    list-style: none;
+    
+    
+ }
+ .menu ul li {
+    display: inline-block;
+    position: relative;
+
+ }
+ .menu ul li a {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 1em;
+    padding: 20px 52px;
+    text-decoration: none;
+    text-align: center;
+    color: green;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+ }
+  
+ .menu ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+     height: 3px;
+     width: 100%;
+    background-color: #15fc00;
+    transform: scaleX(0);
+    transition:  0.3s ease;
+  }
+  
+
+  .menu ul li a:hover::before {
+    transform: scaleX(1);
+  }
+
+    .menumobile , .menum , .menu_mobile, .menuu {
+      display: none;
+  }
+ .maintitle {
+    font-size: 2em;
+    width: fit-content;
+    display: block;
+    
+    font-family: cursive;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+
+ .websiteinfodiv {
+    font-family: cursive;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: .8em;
+    display: grid;
+    grid-template-columns: 2;
+    background-color: gray;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+ }
+ .sections {
+    width: 40%;
+    margin: auto;
+    max-height: 40%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px 0px;
+ }
+ .sectionlink {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-height: 200px;
+    overflow: hidden;
+ }
+ .sectionlink:nth-child(1)::before {
+   content: "WORD MAP";
+   position: absolute;
+   top: 20%;
+   left: 20%;
+   font-size: 5em;
+   font-family: cursive;
+   color: white;
+    text-shadow:-1px -1px 0 #000,  1px -1px 0 #000,-1px 1px 0 #000, 1px 1px 0 #000;
+   z-index: 1;
+
+ }
+ .sectionlink:nth-child(2)::before {
+    content: "FUN FACTS";
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 5em;
+    font-family: cursive;
+    color:  white;
+    text-shadow:-1px -1px 0 #000,  1px -1px 0 #000,-1px 1px 0 #000, 1px 1px 0 #000; 
+    z-index: 1;
+ 
+  }
+  .sectionlink:nth-child(3)::before {
+    content: "COUNTRY OF THE WEEK";
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    font-size: 4em;
+    font-family: cursive;
+    text-align: center;
+    color:  white;
+    text-shadow:-1px -1px 0 #000,  1px -1px 0 #000,-1px 1px 0 #000, 1px 1px 0 #000; 
+    z-index: 1;
+ 
+  }
+ .sectionlink div img {
+    width: 100%;
+   max-height: 200px;
+   transition: .5s transform;
+ }
+ .sectionlink div img:hover {
+    transform: scale(1.5); 
+  }
+  footer {
+    background-color: #2b2b2b;
+    color: rgb(182, 182, 182);
+    padding-bottom: 20px;
+    margin-top: 4%;
+
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    background-color: #2b2b2b;
+    padding: 1px;
+    color: rgb(182, 182, 182);
+    margin: auto;
+    height: max-content;
+    width: 80%;
+    border-bottom: 1px gray solid;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.footertitle {
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.footerinfo {
+    font-size: 15px;
+   
+    white-space: pre-wrap;
+}
+
+.about img {
+    width: 40px;
+
+ }
+ .menu2 a {
+    color: rgb(182, 182, 182);
+    line-height: 40px;
+    margin: auto;
+    display: block;
+ }
+ .footerinfo a {  
+    color: rgb(182, 182, 182);
+    line-height: 20px;
+    margin: auto;
+    display: block;
+ }
+ .copyright {
+    
+    width: fit-content;
+    margin: auto;
+ }
+ .lightmode {
+     
+   color: #050505 ;
+   border-bottom: #050505 1px solid;
+    background-color: white !important;
+}
+ .bgchangee {
+
+   width: 5vw;
+   height: 5vw;
+   background-image: url(/website/under/dm\ \(2\).png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   padding: 0;
+   border: 0;
+   background-color: transparent;
+}
+
+.bgchangee:checked{
+   display: none;
+   filter: invert(-100%);
+
+}

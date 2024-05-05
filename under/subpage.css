@@ -1,0 +1,397 @@
+@media print {
+    .nav , nav, footer, .footer {
+        display: none;
+    }
+}
+body {
+    margin: 0;
+      color: white;
+      max-height: max-content !important;
+  }
+  
+      
+  
+  header  {
+          width: 100%;
+          position: relative;
+          height: 30em;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-attachment: fixed;
+      
+  
+  }
+  
+  
+  
+  
+  .nav {
+      z-index: 99998;
+      position: fixed;
+      top: 0px;
+      background-color: black;
+      width: 100vw;
+      height: 100px;
+      display: flex;
+      justify-content: flex-end;
+     align-items: center;
+     left: 0;
+     background-image: url(/website/under/ecologo.png);
+     background-repeat: no-repeat;
+     background-size: 10%;
+   }
+   .menu ul .menu li {
+      margin: 0%;
+      padding: 0%;
+   }
+   .menu ul {
+      list-style: none;
+      
+      
+   }
+   .menu ul li {
+      display: inline-block;
+      position: relative;
+  
+   }
+   .menu ul li a {
+      text-transform: uppercase;
+      font-weight: 900;
+      font-family: cursive;
+      font-size: 1em;
+      padding: 20px 52px;
+      text-decoration: none;
+      text-align: center;
+      color: green;
+      display: inline-block;
+      position: relative;
+      margin-right: 20px;
+   }
+    
+   .menu ul li a::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: block;
+       height: 3px;
+       width: 100%;
+      background-color: #15fc00;
+      transform: scaleX(0);
+      transition:  0.3s ease;
+    }
+    
+  
+    .menu ul li a:hover::before {
+      transform: scaleX(1);
+    }
+  .menumobile , .menum , .menu_mobile, .menuu {
+      display: none;
+  }
+   .content {
+      background-color: #050505;
+   }
+   .ecologo {
+      z-index: 99999;
+      position: fixed;
+      top: -70px !important;
+      left: -70px;
+      scale: .6;
+      
+      
+   }
+  
+  .img1 , .img2 {
+      height: fit-content;
+      width: 100%;
+  }
+      
+  
+  .img1 img {
+      z-index: 1;
+      position: absolute;
+      width: 100% !important;
+      top: -5px;
+      height: 250px;
+      left: 0;
+      right: 0;
+  }
+  
+  .img2 img {
+      z-index: 1;
+      position: absolute;
+      width: 100% !important;
+      bottom: -10px;
+      height: 200px;
+      left: 0;
+      right: 0;
+  }
+  
+  
+  .flag img {
+      width: 100%;
+      background-attachment: fixed;
+  
+  }
+  
+  
+  
+  
+  .mainimgdiv {
+      display: grid;
+      margin-top: 3em;
+      border-bottom: 10em black solid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 3px 0;
+          width:  100%;
+      margin: auto;
+      background-color: black;
+      
+  }
+  .maincontent{
+      width: 99% !important;
+  }
+  .mainimgdiv img {
+   width: 24%;
+  
+   min-height: 100%;
+   margin: auto;
+  }
+  
+  .center {
+      padding-top: 100px;
+      width: 80%;
+      margin: auto;
+      
+  }
+  .gonatural {
+      display: block;
+      background-color: green;
+      width: fit-content;
+      margin: auto;
+      font-size: 4em;
+      border-radius: 12px;
+      padding: 0.1em;
+      font-family: cursive;
+  }
+  .undergonatural {
+      margin-top: 5px;
+      display: block;
+      margin: auto;
+      color: green;
+      width: fit-content;
+  }
+  .aboutcountry {
+      padding-top: 50px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .ecologo1 {
+      width: 100% !important;
+  }
+  .abt1 {
+      position: relative;
+  }
+  .abt1 img {
+      width: 400px;
+      width: 50%;
+      margin: auto;
+  }
+  .abt2 {
+      font-size: 1.4vw;
+      color: white;
+      
+  }
+  .imginfo {
+      background-color: green;
+      width: 25%;
+     
+      text-align: center;
+      font-size: 190%;
+      border-radius: 10%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      position: absolute;
+      bottom: 100px;
+      color: #050505;
+  
+      
+  
+  }
+  .imginfo1 {
+      display: inline;
+      background-color: white;
+      
+  }
+  .imginfo2 {
+      font-size: 20px;
+      text-decoration: underline solid 1px;
+  }
+  .aboutcountrygallery {
+      padding-top: 200px;
+      width: 70%;
+      margin: auto;
+      margin-bottom: 40px;
+  }
+  .abtcountry1 {
+      display: block;
+      background-color: green;
+      width: fit-content;
+      margin: auto;
+      font-size: 5em;
+      padding: 3px;
+      border-radius: 3px;
+      font-family: cursive;
+  }
+  .galleryimgg {
+      margin-top: 20px;
+      width: 100%;
+      min-height: 8%;
+      border-radius: 10px;
+  }
+  .gallerytitle {
+      font-family: cursive;
+      font-weight: 900;
+      font-size: 40px;
+      padding: 3px;
+      border-radius: 3px;
+      word-break: break-all;
+      background-image: linear-gradient(45deg, rgb(8, 65, 8), rgb(0, 90, 0),  rgb(0, 189, 0) ,rgb(62, 255, 62), rgb(11, 172, 11), rgb(3, 99, 3) , rgb(8, 73, 8));
+      background-position: 0 0;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      background-size: 200%;
+      animation: gradient 10s infinite linear ;
+  
+  }
+    @keyframes gradient {
+      0% {
+          background-position: 0 0;
+      }
+  
+      50% {
+          background-position: 500% 0;
+      }
+  
+      100% {
+          background-position: 0 0;
+      }
+  }
+  .gallerytext {
+      display: block;
+      font-size: 1.3vw;
+      padding: 3px;
+      border-radius: 3px;
+      word-break: break-all;
+      padding-bottom: 40px;
+      margin-bottom: 30px;
+      border-bottom: #15fc00 solid 2px;
+  }
+  .gallerygrid {
+      column-gap: 25px;
+      padding-top: 50px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .col2 {
+      margin-top: -20px;
+  }
+  footer {
+      background-color: #2b2b2b;
+      color: rgb(182, 182, 182);
+      padding-bottom: 20px;
+      margin-top: 4%;
+  
+  }
+  .footer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      width: 100%;
+      background-color: #2b2b2b;
+      padding: 1px;
+      color: rgb(182, 182, 182);
+      margin: auto;
+      height: max-content;
+      width: 80%;
+      border-bottom: 1px gray solid;
+      padding-top: 20px;
+      margin-bottom: 20px;
+  }
+  .footertitle {
+      font-weight: 900;
+      font-size: 18px;
+      color: white;
+      text-transform: uppercase;
+      font-family: cursive;
+  }
+  .footerinfo {
+      font-size: 15px;
+     
+      white-space: pre-wrap;
+  }
+  
+  .about img {
+      width: 40px;
+  
+   }
+   .menu2 a {
+      color: rgb(182, 182, 182);
+      line-height: 40px;
+      margin: auto;
+      display: block;
+   }
+   .footerinfo a {  
+      color: rgb(182, 182, 182);
+      line-height: 20px;
+      margin: auto;
+      display: block;
+   }
+   .copyright {
+      
+      width: fit-content;
+      margin: auto;
+   }
+  .changer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      height: 80px;
+  }
+  .bgchangee {
+      width: 5vw;
+      height: 5vw;
+      background-image: url(dm\ \(2\).png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      filter: invert(-100%);
+      padding: 0;
+      border: 0;
+      background-color: transparent;
+  }
+   
+  .bgchangee:checked{
+      display: none;
+  }
+  
+  
+  
+  
+  
+  .lightmode {
+     
+      color: #050505 ;
+      border-bottom: #050505 1px solid;
+       background-color: white !important;
+  }
+  .lightimg1 img, .lightimg2 img {
+      filter: invert(100%)
+  }
+  .lightbtn {
+      filter: invert(0%);
+  }
+  
+  
+
+  

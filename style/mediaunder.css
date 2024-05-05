@@ -1,0 +1,1276 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+@media  (max-width: 3000px)  and (min-width: 500px){
+    .container {
+        max-width: 1280px;
+        }
+   .nav {
+      max-height: 2em !important;
+       font-size: 4em !important;
+       max-height: 1em !important;
+  }
+  header {
+   margin-top: 0 !important;
+   position: relative !important;
+   
+   
+  }
+  .header {
+    height: 100% ;
+background-position: 0em 10em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+    
+  }
+  .img1 {
+    margin-top: 14em !important;
+    z-index: 99999;
+  }
+
+
+
+  .img1 img , .img2 img {
+    visibility: visible !important;
+    min-width: 100%;
+
+  }
+  .content {
+    padding-top: 4em !important;
+  }
+ 
+}
+@media (min-width: 1536px) {
+     .container {
+         max-width: 1280px;
+         }
+    .nav {
+        min-height:4em;
+        font-size: 4em;
+        padding-bottom: .3em ;
+        
+    }
+
+    .menu ul {
+        padding-top: 0px;
+        margin-top: 0px;
+        
+    }
+    .menu ul li a {
+        font-size: 4em;
+    }
+    
+    header {
+        margin-top: 16em;
+       background-color: #050505 ;
+       padding-bottom: 2em;
+       background-position-y: -200px;
+
+    }
+    
+    .gonatural  {
+        font-size: 17em !important;
+        
+    }
+    .undergonatural {
+        font-size:  6em;
+    }
+    .imginfo {
+        min-width: 10em;
+        min-height: 16em;
+        max-height: 20em;
+        
+    }
+    .imginfo p {
+        font-size: 3.5em;
+    }
+    .abtcountry1 {
+        font-size: 7em !important;
+    }
+    .gallerytitle {
+        font-size: 6em !important;
+        margin-bottom: 0em !important;
+    }
+    .gallerytext {
+        border-bottom: green .2em solid !important;
+        font-size: 2em !important;
+        font-family: cursive;
+    }
+    
+    .footerinfo {
+        font-size:2.5em !important;
+    }
+    .footertitle {
+        font-size: 3em !important;
+    }
+    .copyright {
+        font-size: 1.5em !important;
+    }
+    .menu2 {
+        font-size: 3em;
+        
+    }
+    .menu2   a{
+       line-height: 1.3em !important;
+    }
+    
+    
+    .copyright {
+        font-size: 5em;
+        
+    }
+    .img2  img {
+        width: 90% !important;
+       
+    }
+    
+    
+    
+    .ecologo {
+        width: 1em !important;
+      }
+      .imginfo {
+        max-height: 10%;
+      }
+      .imginfo p {
+        font-size: 2.5em !important;
+      }
+      .gonatural {
+        font-size: 10em !important;
+     }
+     .content {
+        padding-top: 7em !important;
+    
+      }
+    }
+@media (max-width: 2250px){ 
+    
+        .nav {
+            font-size: 3em !important;
+            padding-bottom: 25px !important;
+        }
+        
+        
+        
+}
+@media (max-width: 2900px) {
+    .mainimgdiv img {
+        max-height: 40em !important;
+    }
+    
+    header {
+        background-position-y: 6em !important; 
+    
+    } 
+    .content  {
+        padding-top: 20em !important;
+    }
+
+
+}
+@media (max-width: 2250px) {
+
+.container { 
+    max-width: 768px;
+ }
+ .nav {
+    font-size: 3em !important;
+    
+ }
+ .footertitle {
+font-size: 4em !important;
+ }
+ .footerinfo {
+font-size: 2.8em !important;
+ }
+ .copyright {
+    font-size: 2em !important;
+ }
+    
+ .img1 img {
+    top: -.3em !important;
+ }
+ .menu2 {
+    font-size: 3em !important;
+ }
+ header {
+    background-position-y: 10em !important; 
+
+} 
+
+ 
+}
+@media (max-width: 1900px) {
+     .container{
+     max-width: 640px;
+     }
+     .nav {
+        font-size: 2em !important;
+        
+     }
+     .imginfo {
+        max-height: 20% !important;
+        font-size: 2em !important;
+     }
+     .undergonatural {
+        font-size: 3em !important;
+     } 
+    
+
+    
+     
+}
+@media (max-width: 2300px) {
+
+.container {
+     max-width: 475px; 
+    }
+    .imginfo  p {
+    font-size: 1.6em !important;
+     }
+     .imginfo {
+        min-height: 9em !important;
+     }
+     .mainimgdiv img  {
+        max-height: 50em !important;
+        
+     }
+     .mainimgdiv img a {
+        max-height: 50em !important;
+        min-height: 39em !important;
+     }
+     header {
+        background-position-y: 8em !important; 
+        height: 900px !important;
+       
+    
+    } 
+    footer {
+        margin-top: 10% !important;
+    }
+}
+ @media (min-width: 2000px) {
+    .mainimgdiv img  {
+        max-height: 50em !important;
+        min-height: 38em !important;
+     }
+     .mainimgdiv img a {
+        max-height: 50em !important;
+        min-height: 39em !important;
+     }
+     
+}
+@media (min-width: 2500px) {
+        .mainimgdiv img  {
+            max-height: 60em !important;
+            min-height: 50em !important;
+         }
+         .mainimgdiv img a {
+            max-height: 50em !important;
+            min-height: 39em !important;
+         }
+         @media   ( max-width: 1900px) {
+            .mainimgdiv img  {
+                max-height: 3em !important;
+                min-height: 2em !important;
+             }
+             .mainimgdiv img a {
+                max-height: 2em !important;
+                min-height: 2em !important;
+             }
+             .nav {
+                display: none !important;
+             }
+            }
+            
+                
+}
+@media (max-width: 1530px) { 
+    .container {
+     width: 100%; 
+     }
+     .menu2 {
+        font-size: 2em !important;
+     }
+     .imginfo {
+        font-size: 1em !important;
+     }
+    
+     
+    
+}
+@media (max-width: 1540px) { 
+        .container {
+         width: 100%; 
+         }
+         .nav {
+            font-size: 1.5em !important;
+            z-index: 99998;
+            position: fixed;
+            top: 0px;
+            background-color: rgb(0, 0, 0) !important;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: flex-end;
+           align-items: center;
+           left: 0;
+        .ecologo {
+            z-index: 99999;
+            position: fixed;
+            top: -10px;
+            left: -20px;
+            width: 10em;
+            
+         }
+        
+        .img1 img {
+           
+            top: -2em !important;
+           
+            
+        }
+        .img2 img {
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            bottom: -1px;
+            height: 200px;
+        }
+         .footerinfo {
+            font-size: 1em !important;
+         }
+    
+         }    
+
+}
+@media (max-width: 1900px) and (min-width: 1600px) {
+    .nav {
+    padding-bottom: 0em !important;
+    }
+.img1 img {
+    top: -1em !important;
+}
+
+}
+
+@media (max-width: 2250px) and (min-width: 1530px) {
+    header {
+        background-position-y: -3em !important;
+        height: 700px !important;
+    }
+.all {
+    position: relative;
+    top: -100px !important;
+}
+.gallerytitle {
+    font-size:5em !important;
+}
+.gallerytext {
+    font-size: 1.4em !important;
+}
+.nav {
+    font-size: 2.2em !important;
+}
+.gonatural {
+    font-size: 5em !important;
+}
+.undergonatural {
+    font-size: 3em !important;
+}
+.abtcountry1 {
+    font-size: 4.5em !important;
+}
+.footertitle {
+    font-size: 2em !important;
+}
+.footerinfo{
+    font-size: 1.5em !important;
+}
+}
+@media (max-width: 1800px) and (min-width: 1300px) {
+    .footertitle{
+        font-size: 2.8em !important;
+
+    }
+    .footerinfo , .menu2 {
+        font-size: 2em !important;
+    }
+    .about img{
+        min-height: 6em !important;
+        min-width: 6em !important;
+    }
+    
+    .content {
+        z-index: 2 !important;
+        padding-top: 0 !important;
+    }
+    header {
+        
+        background-position-y: 4em !important;
+        padding-top: 2em ;
+        height: 40em !important;
+    }
+    .img1 img {
+        top: 6em !important; 
+    }
+    .nav {
+ min-height: 8em !important;
+font-size: 1em !important;
+margin-bottom: 0 !important;
+    }
+
+
+    .footertitle{
+        font-size: 1.9em !important;
+
+    }
+    .footerinfo , .menu2 {
+        font-size: 1.6em !important;
+    }
+    .about img{
+        min-height: 4em !important;
+        min-width: 4em !important;
+    }
+    .copyright {
+        font-size: 1.4em !important;
+    }
+    
+    .img1 img {
+        background-color: transparent !important;
+    }
+    
+}
+@media (max-width: 1300px) and (min-width: 768px) {
+    .footertitle{
+        font-size: 1.7em !important;
+
+    }
+    
+    .mainimgdiv a img {
+        min-height: 100% !important;
+    }
+    .footerinfo , .menu2 {
+        font-size: 1.2em !important;
+    }
+    .about img{
+        min-height: 3.5em !important;
+        min-width: 3.5em !important;
+    }
+    .copyright {
+        font-size: 1em !important;
+    }
+    .nav {
+        font-size: .9em !important;
+        min-height: 7em !important;
+        padding-bottom: 0 !important;
+    }
+    
+    .imginfo p {
+        font-size: 1em !important;
+        max-height: 1em !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    header {
+        max-height: 30em !important;
+        top: -8em !important;
+    }
+    .content {
+        padding-top: 0em !important;
+    }
+    body {
+        background-color: black;
+    }
+}
+@media (max-width: 1050px) and (min-width: 768px) {
+    .nav {
+        font-size: .6em !important ;
+    }
+    .menu ul li a {
+        margin-right: 0px !important;
+    }
+    
+
+}
+@media (max-width: 1300px) and (min-width: 768px) {
+    .footertitle{
+        font-size: 1em !important;
+
+    }
+    .footerinfo , .menu2 {
+        font-size: .8em !important;
+    }
+    .about img{
+        min-height: 3em !important;
+        min-width: 3em !important;
+    }
+    .copyright {
+        font-size: .6em !important;
+    }
+
+    .undergonatural {
+    font-size: 2em !important;
+    }
+    .imginfo p {
+        font-size: .9em !important;
+        
+    }
+    .imginfo {
+        min-height: 5em !important;
+    }
+    .abtcountry1 {
+        font-size: 4em !important;
+    }
+
+    
+
+    
+      
+
+
+}
+@media (max-width: 767px) and (min-width: 500px) {
+    
+    .aboutcountrygallery {
+        width: 95% !important;
+    }
+    .bgchangee {
+        margin-right: 20% !important;
+     
+    }
+    * {
+        font-family: "Sedan SC", serif !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+}
+    .gallerytext {
+        font-size: .55em !important;
+    }
+    .mainimgdiv {
+        margin: 0 !important;
+    }
+    .mainimgdiv {
+        
+        grid-template-columns: 1fr 1fr !important;
+        grid-template-rows: repeat(4, 1fr) !important;
+        grid-gap: 0  !important;
+        border: 0 !important;
+       }
+       .mainimgdiv img , .mainimgdiv a{
+        max-height: 98% !important;
+        
+       }
+       
+    .footertitle{
+        font-size: .6em !important;
+
+    }
+    .footerinfo , .menu2 {
+        font-size: .5em !important;
+    }
+    .about img{
+        min-height: 1.5 !important;
+        min-width: 1.5em !important;
+    }
+    .copyright {
+        font-size: .4em !important;
+    }
+    .nav {
+        font-size: 0.6em !important;
+        padding-bottom: 5em;
+    }
+    .menu ul li a {
+        padding: 30px 30px !important;
+        margin-top: 5em !important;
+    }
+    .bgchangee {
+        position: fixed !important;
+    font-size: .2em !important;
+        left: 20em !important;
+    }
+    .img1 {
+        margin: 0 !important;
+    }
+    .content {
+        padding-top: 0 !important;
+    }
+    header {
+    background-position-y: 2em !important;
+   } 
+   .imginfo {
+    font-size: .8em !important ;
+   }
+   .ecologo1 {
+    min-width: 3em !important;
+   }
+   .abt2 {
+    font-size: .6em !important;
+   }
+    .img1 {
+        margin-top: 0 !important;
+    }
+    .abtcountry1 {
+        font-size: 3em !important;
+    }
+    .nav {
+        font-size: 1.5em !important;
+        padding-bottom: 0em !important;
+        min-height:2.5em;
+    }
+    .menu  {
+        display: none;
+    }
+    
+    header {
+        background-position-y: 1.4em !important;
+        max-height: 25em !important;
+    }
+
+          .gonatural {
+            font-size: 3em !important;
+          }
+          .undergonatural {
+            font-size: 1em !important;
+          }
+          .aboutcountry{
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            grid-template-rows: 1fr 1fr !important;
+          }
+          .imginfo {
+            bottom: 0 !important;
+            left: 20%;
+          }
+          .abt1 {
+            display: flex;
+            max-width: 90vw;
+            align-items: center;
+          }
+          footer {
+            margin-top: 25% !important;
+          }
+          .menu_mobile{
+            display: inline-block !important;
+            
+    
+          }
+     
+          
+          .mobilemenu {
+            min-width: 300px;
+            min-height: 300px;
+          }   
+            .x3  {
+                z-index: 9999999;
+                right: .5em;
+                top: .5em;
+              height: .1em;
+              width: 1em;
+              background: rgb(89, 255, 67);
+              display: block;
+              margin-top: 1em;
+              position: fixed;
+              transition: tranform 0.3s ease-in-out, top 0.3s ease-in-out,
+                opacity 0.3s ease-in-out;
+        }
+        .x3::before {
+            content: "";
+            position: absolute;
+            height: .1em;
+              width: 1em;
+            top: -20px;
+            background: rgb(89, 255, 67);
+        }
+        .x3::after {
+            content: "";
+            position: absolute;
+            height: .1em;
+              width: 1em;
+            top: -10px;
+            background: rgb(89, 255, 67);
+            
+        }
+        .menum:checked:first-child {
+                transform: rotate(45deg);
+                top: 8px;
+              }
+          
+              .menum:checked:last-child {
+                transform: rotate(-45deg);
+                top: -8px;
+              }
+          
+          
+         nav:first-of-type  {
+            
+            width: 100%;
+            
+            padding:2em 7em;
+            position: fixed;
+            left: -100%;
+            box-sizing: border-box;
+            transition: left 0.2s ease-in;
+          
+        .menum:checked ~ & {
+              left: 0;
+            }
+          
+        ul {
+            position: absolute;
+            left: 0;
+            top: -2em !important;
+              list-style-type: none;
+              margin: 0;
+              z-index: 999999999;
+              padding: 8em 0em 50em 0em;
+              background-color: rgb(0, 0, 0);
+    
+        }
+        ul li {
+           
+        margin-bottom: 10px;
+        border-bottom: #535353 solid 3px;
+        }
+        ul li a {
+          text-decoration: none;
+            color: green;
+            font-family: cursive;
+            padding: .4em 5em  0 0em ;
+                }
+              }
+              ul li a:hover {
+              background-color: azure;
+              border-radius: 0% 2em 2em 0%;
+              }
+   
+}
+@media (max-width: 499px) and (min-width: 200px) {
+    .aboutcountrygallery {
+        width: 95% !important;
+        padding-top: 3em !important;
+    }
+    * {
+        font-family: "Sedan SC", serif !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+}
+    .gallerytext {
+        font-size: .52em !important;
+    }
+    .mainimgdiv {
+        margin: 0 !important;
+        
+
+    }
+    .bgchangee {
+        margin-right: 20% !important;
+     
+    }
+    .ecologo {
+        margin-top: 2em !important;
+        left: -1em !important;
+         min-height: 5.5em !important;
+         min-width: 8em !important;
+     }
+     .bgchangee {
+         position: fixed !important;
+     font-size: 3px !important;
+         left: 30em !important;
+     }
+    .mainimgdiv {
+        grid-template-columns: 1fr 1fr !important;
+        grid-template-rows: repeat(4, 1fr) !important;
+        grid-gap: 0  !important;
+        border: 0 !important;
+       }
+       .mainimgdiv img , .mainimgdiv a{
+        max-height: 98% !important;
+        
+       }
+       
+    .footertitle{
+        font-size: .6em !important;
+
+    }
+    .footerinfo , .menu2 {
+        font-size: .5em !important;
+    }
+    
+    .copyright {
+        font-size: .4em !important;
+    }
+    .nav {
+        padding-bottom: 5em;
+        padding-bottom: 0em !important;
+        max-height:2.5em;
+
+
+    }
+    .menu ul li a {
+        padding: 30px 30px !important;
+        margin-top: 5em !important;
+    }
+    .ecologo {
+        top: -1em !important;
+        max-height: 5.5em !important;
+        min-width: 8em !important;
+    }
+
+    .content {
+        padding-top: 0 !important;
+    }
+     
+   .imginfo {
+    font-size: .8em !important ;
+   }
+   .ecologo1 {
+    min-width: 3em !important;
+   }
+   .abt2 {
+    font-size: .6em !important;
+   }
+    .img1 {
+        margin-top: 0 !important;
+    }
+    .img2 img {
+        bottom: -.1em !important;
+    }
+
+    .menu  {
+        display: none;
+    }
+    
+    header {
+        background-position-y: 3.7em !important;
+        max-height: 23em !important;
+
+    }
+  
+    .menu_mobile{
+        display: inline-block !important;
+        
+
+      }
+ 
+      
+      .mobilemenu {
+        min-width: 300px;
+        min-height: 300px;
+      }   
+        .x3  {
+            z-index: 9999999;
+            right: .5em;
+            top: .5em;
+          height: .1em;
+          width: 1em;
+          background: rgb(89, 255, 67);
+          display: block;
+          margin-top: 1em;
+          position: fixed;
+          transition: tranform 0.3s ease-in-out, top 0.3s ease-in-out,
+            opacity 0.3s ease-in-out;
+    }
+    .x3::before {
+        content: "";
+        position: absolute;
+        height: .1em;
+          width: 1em;
+        top: -20px;
+        background: rgb(89, 255, 67);
+    }
+    .x3::after {
+        content: "";
+        position: absolute;
+        height: .1em;
+          width: 1em;
+        top: -10px;
+        background: rgb(89, 255, 67);
+        
+    }
+    .menum:checked:first-child {
+            transform: rotate(45deg);
+            top: 8px;
+          }
+      
+          .menum:checked:last-child {
+            transform: rotate(-45deg);
+            top: -8px;
+          }
+      
+      
+     nav:first-of-type  {
+        
+        width: 100%;
+        
+        padding:2em 7em;
+        position: fixed;
+        left: -100%;
+        box-sizing: border-box;
+        transition: left 0.2s ease-in;
+      
+    .menum:checked ~ & {
+          left: 0;
+        }
+      
+    ul {
+        position: absolute;
+        left: 0;
+        top: -2em !important;
+          list-style-type: none;
+          margin: 0;
+          z-index: 999999999;
+          padding: 8em 0em 50em 0em;
+          background-color: rgb(0, 0, 0);
+
+    }
+    ul li {
+       
+    margin-bottom: 10px;
+    border-bottom: #535353 solid 3px;
+    }
+    ul li a {
+      text-decoration: none;
+        color: green;
+        font-family: cursive;
+        padding: .4em 5em  0 0em ;
+            }
+          }
+          ul li a:hover {
+          background-color: azure;
+          border-radius: 0% 2em 2em 0%;
+          }
+          .gonatural {
+            font-size: 2.5em !important;
+          }
+          .undergonatural {
+            font-size: 1em !important;
+          }
+          
+          .aboutcountry{
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            grid-template-rows: 1fr 1fr !important;
+            padding-top: 0 !important;
+          }
+          .imginfo {
+            bottom: 0 !important;
+            left: 20%;
+          }
+          .abt1 {
+            display: flex;
+            max-width: 90vw;
+            align-items: center;
+          }  
+footer {
+    margin-top: 60% !important;
+}
+}
+@media (max-width: 440px) and (min-width: 200px) {
+    
+    header {
+background-size: 120% !important;
+    }
+    .about img {
+        max-height: 1.5em !important;
+        max-width: 1.5em !important;
+    }
+    .bgchangee {
+        margin-right: 20% !important;
+     
+    }
+    .footertitle {
+        font-size: .5em !important;
+    }
+    .gonatural {
+        font-size: 1.4em !important;
+    }
+    .abtcountry1 {
+        font-size: 1.4em !important;
+    }
+    .undergonatural {
+        font-size: .7em !important;
+    }
+    .imginfo {
+        font-size: .6em !important;
+        padding-top: .7em !important;
+    }
+    .ecologo1 {
+        height: 15em !important;
+        width: 18em !important;
+    }
+    .gallerytitle {
+        font-size: 1.8em !important;
+    }
+    .gallerytext {
+        font-size: .5em !important;
+        padding-bottom: 1em !important;
+    }
+    
+    
+} 
+@media (max-width: 360px) and (min-width: 100px) {
+    
+    header {
+background-size: 150% !important;
+background-position-x: 45%;
+    }
+    footer {
+        margin-top: 0% !important;
+    }
+    .galleryimgg {
+        min-height: 10em !important;
+    }
+    
+} 
+@media (max-width: 280px) and (min-width: 0px) {
+    
+   header {
+    max-height: 20em !important;
+   }
+   * {
+    font-family: "Sedan SC", serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+   .gonatural {
+    font-size: 1.4em !important;
+   }
+   .undergonatural {
+    font-size: .45em !important;
+   }
+   .bgchangee {
+    margin-right: 20% !important;
+ 
+}
+   .aboutcountry {
+    max-height: 40em !important;
+  }
+  
+ .bgchangee {
+     position: fixed !important;
+ font-size: 3px !important;
+     left: 30em !important;
+ }
+.imginfo {
+    font-size: .5em !important;
+}
+.ecologo1 {
+    max-width: 12em !important;
+    max-height: 12em !important;
+}
+.footertitle {
+    font-size: .2em !important;
+}
+.footerinfo {
+    font-size: .4em !important;
+}
+.gallerygrid {
+grid-gap: .5em !important;
+}
+    
+}
+@media (max-width: 220px) and (min-width: 0px) {
+    .aboutcountrygallery {
+        width: 99% !important;
+    }
+.bgchangee {
+    max-width: 1em !important;
+}
+.gallerytitle {
+    font-size: 1.2em !important;
+}
+.gallerytext {
+    font-size: .3em !important;
+}
+.footertitle {
+    font-size: 3px !important;
+}
+.about img{
+    max-width: .6em !important;
+    max-height: .6em !important;
+}
+.footerinfo {
+    font-size: 3px !important;
+}
+.copyright {
+font-size: 3px !important;
+}
+.img1 img, .img2 img {
+    max-height: 10em !important;
+}
+.img1 img {
+    top: 1em !important;
+}
+header {
+    max-height: 17em !important;
+    background-position-y: 3em !important;
+
+}
+.nav {
+    max-height: 2em !important;
+}
+.ecologo {
+    max-width: 5em !important;
+    max-height: 5em !important;
+}
+.mainimgdiv {
+    margin: 0 !important;
+}
+.abt1 {
+    max-width: 100% !important;
+}
+.aboutcountry{
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr !important;
+    padding-top: 0 !important;
+  }
+.mainimgdiv {
+    
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: repeat(4, 1fr) !important;
+    grid-gap: 0  !important;
+    border: 0 !important;
+   }
+   .mainimgdiv img , .mainimgdiv a{
+    max-height: 98% !important;
+    
+   }
+   .ecologo1 {
+    max-width: 15em !important;
+    max-height: 15em !important;
+   }
+   .menu_mobile{
+    display: inline-block !important;
+    
+
+  }
+  .menu {
+    display: none !important;;
+  }
+
+  
+  .mobilemenu {
+    min-width: 300px;
+    min-height: 300px;
+  }   
+    .x3  {
+        z-index: 9999999;
+        right: .5em;
+        top: .5em;
+      height: .1em;
+      width: 1em;
+      background: rgb(89, 255, 67);
+      display: block;
+      margin-top: 1em;
+      position: fixed;
+      transition: tranform 0.3s ease-in-out, top 0.3s ease-in-out,
+        opacity 0.3s ease-in-out;
+}
+.x3::before {
+    content: "";
+    position: absolute;
+    height: .1em;
+      width: 1em;
+    top: -20px;
+    background: rgb(89, 255, 67);
+}
+.x3::after {
+    content: "";
+    position: absolute;
+    height: .1em;
+      width: 1em;
+    top: -10px;
+    background: rgb(89, 255, 67);
+    
+}
+.menum:checked:first-child {
+        transform: rotate(45deg);
+        top: 8px;
+      }
+  
+      .menum:checked:last-child {
+        transform: rotate(-45deg);
+        top: -8px;
+      }
+  
+  
+ nav:first-of-type  {
+    
+    width: 100%;
+    
+    padding:2em 7em;
+    position: fixed;
+    left: -300%;
+    box-sizing: border-box;
+    transition: left 0.2s ease-in;
+  
+.menum:checked ~ & {
+      left: 0;
+    }
+  
+ul {
+    position: absolute;
+    left: 0;
+    top: -2em !important;
+      list-style-type: none;
+      margin: 0;
+      z-index: 999999999;
+      padding: 8em 0em 50em 0em;
+      background-color: rgb(0, 0, 0);
+
+}
+ul li {
+   
+margin-bottom: 10px;
+border-bottom: #535353 solid 3px;
+}
+ul li a {
+  text-decoration: none;
+    color: green;
+    font-family: cursive;
+    padding: .4em 5em  0 0em ;
+        }
+      }
+      ul li a:hover {
+      background-color: azure;
+      border-radius: 0% 2em 2em 0%;
+      }
+      .gonatural {
+        font-size: .5em !important;
+      }
+      .undergonatural {
+        font-size: .3em !important;
+      }
+      .abt2 , .abt1{ 
+        font-size: .4em !important;
+        overflow: hidden;
+      }
+      .imginfo {
+        font-size: .1em !important;
+        padding: 10px !important;
+      }
+      .abtcountry1 {
+        font-size: .6em !important;
+      }
+      .about a img {
+        display: none !important;
+      }
+.abt1 {
+    display: none !important;
+}
+.content {
+padding-top: 0 !important;
+}
+} 
+@media only screen and (max-width: 1900px) {
+  
+    .aboutcountry {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+
+  }
+
+ }

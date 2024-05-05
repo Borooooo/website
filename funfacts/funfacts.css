@@ -1,0 +1,303 @@
+@media print {
+   .nav , nav, footer, .footer {
+       display: none;
+   }
+}
+
+* {
+   font-family: cursive;
+}
+
+body  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(15, 14, 14);
+}
+
+.bg {
+   width: 100%;
+   height: 700px;
+   background-image: url(background.jpg);
+   background-position: 0px -300px;
+   position: absolute;
+   z-index: -1;
+
+}
+
+
+
+
+.nav {
+   
+    position: fixed;
+    top: 0px;
+    background-color: rgb(22, 22, 22);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+   align-items: center;
+   left: 0;
+   background-image: url(/website/under/ecologo.png);
+   background-repeat: no-repeat;
+   background-size: 7%; 
+     z-index: 99998 !important;
+ }
+ .menu ul .menu li {
+    margin: 0%;
+    padding: 0%;
+ }
+ .menu ul {
+    list-style: none;
+    
+    
+ }
+ .menu ul li {
+    display: inline-block;
+    position: relative;
+
+ }
+ .menu ul li a {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 1em;
+    padding: 20px 52px;
+    text-decoration: none;
+    text-align: center;
+    color: green;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+ }
+  
+ .menu ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+     height: 3px;
+     width: 100%;
+    background-color: #15fc00;
+    transform: scaleX(0);
+    transition:  0.3s ease;
+  }
+  
+
+  .menu ul li a:hover::before {
+    transform: scaleX(1);
+  }
+  .menumobile , .menum , .menu_mobile, .menuu {
+   display: none;
+}
+
+  .main {
+   position: relative;
+   top: 300px;
+    width: 60%;
+    background-color: rgb(22, 22, 22);
+    margin: auto;
+    height: 1700px;
+    padding-bottom: 1100px;
+    z-index: 1;
+
+  }
+  .title {
+   color: white;
+   font-size: 2em;
+   width: fit-content;
+   display: block;
+   
+   font-family: cursive;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+  .earthsectionn {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform-style: preserve-3d;
+   height: 2000px;
+  }
+
+
+
+  .earth {
+   position: absolute;
+   width: 300px;
+   height: 300px;
+   transform: translate(-50%, -50%);
+   top: 12%;
+   left: 50%;
+   background-image: url(w.jpg);
+   background-repeat: repeat-x;
+   background-size: 250%;
+border-radius: 50%;
+animation: spin infinite  7s linear;
+box-shadow: blue 3px 3px 30px;
+
+
+  }
+  @keyframes spin {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: -750px 0;
+   }
+  }
+.article {
+   position: relative;
+   top: 500px;
+   width: 90%;
+   height: fit-content;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(4, 1fr);
+   grid-gap: 30px;
+}
+.article:nth-child(1n) {
+   height: fit-content;
+}
+.a1, .a2, .a3, .a4 {
+   position: relative;
+   
+}
+.zoom img {
+   height: 400px;
+   width: 450px;
+   float: left;
+}
+.arttitle {
+   font-size: 2em;
+   display: block;
+  margin-left: 50%;
+}
+.arttext {
+   display: block;
+   margin-left: 50%;
+   margin-right: 5%;
+   padding-bottom: 70px;
+   border-bottom: 10px solid rgb(21, 255, 21);
+}
+.zoom {
+   float: left;
+   width: 400px;
+   height: 400px;
+    overflow: hidden;
+}
+.zoom img {
+   transition: 3s all;
+}
+.zoom img:hover {
+  
+transform: scale(1.5);
+}
+.save {
+   background-image: url(sav.png);
+   position: absolute;
+   right: 20px;
+   top: -10px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 50px;
+   height: 50px;
+}
+.save:hover {
+   width: 80px;
+   height: 80px;
+   right: 4px;
+   top: -6px;
+   border: 2px solid green;
+   border-radius: 50%;
+}
+.article a {
+   text-decoration: none;
+   color: white;
+   box-shadow: 0px 0px 45px -1px rgb(47, 47, 49);
+
+}
+footer {
+   background-color: #2b2b2b;
+   color: rgb(182, 182, 182);
+   padding-bottom: 20px;
+z-index: 3;
+position: absolute;
+ 
+}
+.footer {
+   z-index: 3;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   background-color: #2b2b2b;
+   padding: 1px;
+   color: rgb(182, 182, 182);
+   margin: auto;
+   height: max-content;
+   width: 80%;
+   border-bottom: 1px gray solid;
+   padding-top: 20px;
+   margin-bottom: 20px;
+}
+.footertitle {
+   font-weight: 900;
+   font-size: 18px;
+   color: white;
+   text-transform: uppercase;
+   font-family: cursive;
+}
+.footerinfo {
+   font-size: 15px;
+  
+   white-space: pre-wrap;
+}
+
+.about img {
+   width: 40px;
+
+}
+.menu2 a {
+   color: rgb(182, 182, 182);
+   line-height: 40px;
+   margin: auto;
+   display: block;
+}
+.footerinfo a {  
+   color: rgb(182, 182, 182);
+   line-height: 20px;
+   margin: auto;
+   display: block;
+}
+.copyright {
+   
+   width: fit-content;
+   margin: auto;
+}
+.lightmode {
+     
+   color: #050505 ;
+   border-bottom: #050505 1px solid;
+    background-color: white !important;
+ }
+ .bgchangee {
+ 
+   width: 5vw;
+   height: 5vw;
+   background-image: url(/website/under/dm\ \(2\).png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   padding: 0;
+   border: 0;
+   background-color: transparent;
+ }
+ 
+ .bgchangee:checked{
+   display: none;
+   filter: invert(-100%);
+ 
+ }

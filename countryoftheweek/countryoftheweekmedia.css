@@ -38,6 +38,10 @@ font-size: .8em !important;
 .country {
     margin-top: 500px !important;
 }
+      * {
+          font-family: "Sedan SC", serif !important;
+          font-weight: 400 !important;
+          font-style: normal !important
 }
 @media (max-width: 1000px) and (min-width: 769px) {
     .nav {

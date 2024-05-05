@@ -139,6 +139,10 @@ font-size: 2EM;
       }
 }
 @media (max-width: 1279px) and (min-width: 1000px) {
+      * {
+          font-family: "Sedan SC", serif !important;
+          font-weight: 400 !important;
+          font-style: normal !important
     .nav {
         font-size: .9em;
     }

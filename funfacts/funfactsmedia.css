@@ -25,6 +25,10 @@
 }
 }
 @media (max-width: 1279px) and (min-width: 1000px) {
+      * {
+          font-family: "Sedan SC", serif !important;
+          font-weight: 400 !important;
+          font-style: normal !important
     
     .zoom img, .zoom {
         max-height: 300px;

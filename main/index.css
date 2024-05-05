@@ -157,7 +157,7 @@ svg {
     overflow: hidden;
  }
  .sectionlink:nth-child(1)::before {
-   content: "WORD MAP";
+   content: "WORLD MAP";
    position: absolute;
    top: 20%;
    left: 20%;

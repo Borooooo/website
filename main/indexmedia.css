@@ -62,11 +62,7 @@ font-size: 3em;
       .sectionlink:nth-child(1n)::before {
         font-size: 2em !important;
     }
-      * {
-          font-family: "Sedan SC", serif !important;
-          font-weight: 400 !important;
-          font-style: normal !important
-    }
+
 
 @media (max-width: 768px) and (min-width: 481px) {
     .menu_mobile{

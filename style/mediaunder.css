@@ -494,6 +494,10 @@ margin-bottom: 0 !important;
 
 }
 @media (max-width: 1300px) and (min-width: 768px) {
+      * {
+          font-family: "Sedan SC", serif !important;
+          font-weight: 400 !important;
+          font-style: normal !important
     .footertitle{
         font-size: 1em !important;
 

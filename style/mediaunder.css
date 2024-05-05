@@ -532,7 +532,7 @@ margin-bottom: 0 !important;
 }
 @media (max-width: 767px) and (min-width: 500px) {
      main {
-        padding-bottom: 100px;
+        padding-bottom: 150px;
     }
     .aboutcountrygallery {
         width: 95% !important;

@@ -150,16 +150,15 @@
             }
             * {
                 font-size: .9em;
-            }
+                font-family: "Sedan SC", serif !important;
+            font-weight: 400 !important;
+            font-style: normal !important;
             }
             .bgchangee {
               margin-right: 20% !important;
            
-          }
-          * {
-            font-family: "Sedan SC", serif !important;
-            font-weight: 400 !important;
-            font-style: normal !important;
+            }
+           
 }
     
     @media (max-width: 480px){

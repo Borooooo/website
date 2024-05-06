@@ -151,6 +151,7 @@
             }
             .bgchangee {
               margin-right: 20% !important;
+                scale: 2;
            
           }
           * {
@@ -272,8 +273,8 @@
                 font-size: .85em;
             }
             .bgchangee {
-              margin-right: 20% !important;
-           
+              margin-right: 30% !important;
+ scale: 3;          
           } 
            .nav {
                 font-size: 4em !important;

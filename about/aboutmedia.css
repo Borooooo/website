@@ -60,6 +60,11 @@
         }
     
     @media (max-width: 768px) and (min-width: 481px) {
+                  * {
+                font-family: "Sedan SC", serif !important;
+                font-weight: 400 !important;
+                font-style: normal !important;
+    }
         .menu_mobile{
             display: inline-block !important;
             
@@ -196,14 +201,15 @@
                 margin-right: 20% !important;
              
             }
-          * {
+
+    }
+    
+    @media (max-width: 480px){
+                  * {
                 font-family: "Sedan SC", serif !important;
                 font-weight: 400 !important;
                 font-style: normal !important;
     }
-    }
-    
-    @media (max-width: 480px){
         .menu_mobile{
             display: inline-block !important;
             
@@ -343,10 +349,6 @@
             .whitebg {
                 height: 15%;
             }
-            * {
-                font-family: "Sedan SC", serif !important;
-                font-weight: 400 !important;
-                font-style: normal !important;
-    }
+ 
 }
     

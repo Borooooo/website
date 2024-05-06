@@ -67,6 +67,7 @@ font-size: 3em;
 
       } .bgchangee {
         margin-right: 20% !important;
+         scale: 2;
      
     }
  
@@ -194,7 +195,8 @@ font-size: 3em;
 
       }
       .bgchangee {
-        margin-right: 20% !important;
+        margin-right: 30% !important;
+          scale: 3;
      
     }
     * {

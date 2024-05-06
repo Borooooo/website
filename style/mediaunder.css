@@ -544,6 +544,7 @@ margin-bottom: 0 !important;
     }
     .bgchangee {
         margin-right: 20% !important;
+        scale: 2;
      
     }
     * {
@@ -780,11 +781,10 @@ margin-bottom: 0 !important;
          min-height: 5.5em !important;
          min-width: 8em !important;
      }
-     .bgchangee {
-         position: fixed !important;
-     font-size: 3px !important;
-         left: 30em !important;
-     }
+   .bgchangee {
+        margin-right: 30% !important;
+        scale: 2.5;
+   }
     .mainimgdiv {
         grid-template-columns: 1fr 1fr !important;
         grid-template-rows: repeat(4, 1fr) !important;
@@ -983,7 +983,8 @@ background-size: 120% !important;
         max-width: 1.5em !important;
     }
     .bgchangee {
-        margin-right: 20% !important;
+        margin-right: 30% !important;
+        scale: 2.6;
      
     }
     .footertitle {
@@ -1055,9 +1056,9 @@ background-position-x: 45%;
   }
   
  .bgchangee {
-     position: fixed !important;
- font-size: 3px !important;
-     left: 30em !important;
+        margin-right: 30% !important;
+        scale: 3;
+     
  }
 .imginfo {
     font-size: .5em !important;

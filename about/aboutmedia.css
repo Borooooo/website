@@ -195,7 +195,7 @@
             }
             .bgchangee {
                 margin-right: 20% !important;
-             
+             scale: 2;
             }
             .bgchangee {
                 margin-right: 20% !important;
@@ -216,7 +216,9 @@
     
           }
           .bgchangee {
-            margin-right: 20% !important;
+            margin-right: 30% !important;
+              scale: 3;
+             
          
         }
           
@@ -311,6 +313,7 @@
                 font-size: .6em !important;
                 background-size: 27%;
             }
+      
             
             .footertitle {
                 font-size: .55em !important;

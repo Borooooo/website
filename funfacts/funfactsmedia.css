@@ -280,6 +280,7 @@
     }
     .bgchangee {
         margin-right: 20% !important;
+      scale: 2;
      
     }
     .main {
@@ -591,7 +592,8 @@
           border-radius: 0% 2em 2em 0%;
           }
           .bgchangee {
-            margin-right: 20% !important;
+            margin-right: 30% !important;
+            scale: 3;
          
         }
         * {

@@ -183,7 +183,10 @@ font-size: 3em;
           font-weight: 400 !important;
           font-style: normal !important;
 }
-}
+     .maintitle {
+     font-size:   .9em
+     } 
+} 
 @media (max-width: 480px){
     .menu_mobile{
         display: inline-block !important;

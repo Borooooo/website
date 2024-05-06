@@ -6,6 +6,7 @@
 
 * {
    font-family: cursive;
+color: black;
 }
 
 body  {
@@ -218,7 +219,6 @@ transform: scale(1.5);
 }
 .article a {
    text-decoration: none;
-   color: white;
    box-shadow: 0px 0px 45px -1px rgb(47, 47, 49);
 
 }
@@ -295,9 +295,8 @@ position: absolute;
    border: 0;
    background-color: transparent;
  }
- 
- .bgchangee:checked{
-   display: none;
-   filter: invert(-100%);
- 
- }
+
+
+
+
+

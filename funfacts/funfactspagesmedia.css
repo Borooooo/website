@@ -224,7 +224,8 @@ font-size: 2EM;
       }
       footer {
         position: absolute;
-        bottom: 0 !important;
+        bottom: -200% !important;
+
       }
  
       

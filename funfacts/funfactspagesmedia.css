@@ -144,6 +144,10 @@ font-size: 2EM;
           font-weight: 400 !important;
           font-style: normal !important
 } 
+    .footer {
+        position: absolute;
+        bottom: 0;
+    }
     .nav {
         font-size: .9em;
     }

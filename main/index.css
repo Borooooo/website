@@ -3,7 +3,20 @@
        display: none;
    }
 }
+nav, .nav ,  footer, .footer, .maindiv, .menumobile , .menum , .menu_mobile, .menuu {
+  animation: fadein 5.5s  step-end;
+  animation-iteration-count: 1
 
+}
+
+
+@keyframes fadein {
+   1% { opacity: 0}
+   99% {
+      opacity: 1;
+   }
+  100%  { opacity: 1}
+}
 * {
    margin: 0%;
    padding: 0%;

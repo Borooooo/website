@@ -204,6 +204,41 @@ svg {
  .sectionlink div img:hover {
     transform: scale(1.5); 
   }
+
+
+ ::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+ }
+ ::-webkit-scrollbar-button {
+   width: 0px;
+   height: 0px;
+ }
+ ::-webkit-scrollbar-thumb {
+   background: #0b5f00cb;
+   border: 0px none #ffffff;
+   border-radius: 50px;
+ }
+ ::-webkit-scrollbar-thumb:hover {
+   background: #a1a1a1;
+ }
+ ::-webkit-scrollbar-thumb:active {
+   background: #000000;
+ }
+ ::-webkit-scrollbar-track {
+   background: #222222;
+   border: 0px none #ffffff;
+   border-radius: 34px;
+ }
+ ::-webkit-scrollbar-track:hover {
+   background: #666666;
+ }
+ ::-webkit-scrollbar-track:active {
+   background: #333333;
+ }
+ ::-webkit-scrollbar-corner {
+   background: transparent;
+ }
   footer {
     background-color: #2b2b2b;
     color: rgb(182, 182, 182);
